@@ -61,9 +61,10 @@
             </configuration>
         </plugin>
 	<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.19</version>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-war-plugin</artifactId>
+              <version>3.3.2</version> <!-- Or latest stable -->
+        </plugin>
         </plugin>
     </plugins>
 </build>
